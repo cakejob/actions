@@ -30,6 +30,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             sudo apt-get -y update
+            cd /var/www/nuxt-gotracker
             sudo mkdir vendor
 
 
