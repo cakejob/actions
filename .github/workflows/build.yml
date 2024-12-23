@@ -26,6 +26,6 @@ jobs:
           host: ${{ secrets.HOST_DNS }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
-        script: |
-          sudo apt-get -y update
-          
+          script: |
+            sudo apt-get -y update
+
