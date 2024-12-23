@@ -1,0 +1,17 @@
+name: 'Test-action'
+
+on:
+    push:
+        branchs: [ main ]
+
+jobs:
+    test-build:
+        name: 'Terraform'
+        runs-on: ubuntu-latest
+        steps:
+            # Checkout the repository to the GitHub Actions runner
+            - name: Checkout
+            uses: actions/checkout@v4
+
+
+
