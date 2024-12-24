@@ -1,0 +1,47 @@
+/**
+Contains all my compilable scss:
+*/
+@import '@/assets/scss/bases/reset.scss';
+@import '@/assets/scss/bases/animations.scss';
+@import '@/assets/plugins/fontawesome/css/all.min.css';
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: $bg;
+    font-weight: 400;
+    color: #d9dae0;
+}
+
+
+/* Define the sidebar width */
+:root {
+    --tw-sidebar-width: 250px;
+    --tw-sidebar-bg: #fbfaff;
+    --tw-email-leftbar: 236px;
+}
+
+a {
+    color: #8a9299;
+}
+.show-bar {
+    float: left !important;
+    line-height: 3.8rem;
+    padding-left: 1rem;
+}
+
+#header {
+    .topbar-brand {
+        padding: 0 1.25rem;
+        color: #8a9299;
+    }
+}
+
+.main-content {
+    position: relative;
+    overflow: hidden;
+    margin-left: var(--tw-sidebar-width);
+
+    .page-content {
+        padding: calc(70px + 1.5rem) 1.125rem 60px 1.125rem;
+    }
+}
