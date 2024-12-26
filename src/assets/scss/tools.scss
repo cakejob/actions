@@ -2,6 +2,6 @@
 Contains all the required scss variables and mixins etc and is required for main.scss
 and for all components which is why I've added it to the vite compiler options:
 */
-@import '@/assets/scss/variables/colors.scss';
-@import '@/assets/scss/variables/borders.scss';
-@import '@/assets/scss/mixins/clearfix.scss';
+@use '@/assets/scss/variables/colors.scss';
+@use '@/assets/scss/variables/borders.scss';
+@use '@/assets/scss/mixins/clearfix.scss';

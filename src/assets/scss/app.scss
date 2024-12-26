@@ -1,9 +1,9 @@
 /**
 Contains all my compilable scss:
 */
-@import '@/assets/scss/bases/reset.scss';
-@import '@/assets/scss/bases/animations.scss';
-@import '@/assets/plugins/fontawesome/css/all.min.css';
+@use '@/assets/scss/bases/reset.scss';
+@use '@/assets/scss/bases/animations.scss';
+@use '@/assets/plugins/fontawesome/css/all.min.css';
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
